@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url('bg.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+form input {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+form input[type="submit"] {
+    width: 50%;
+    border-radius: 10px;
+    border-color: black;
+    background: white;
+    color: black;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+/* if Validation done and not done */
+/* if validation is done then use this class */
+.stop {
+    transition: 0.1s;
+}
+
+/* if validation not done then use this class */
+.move {
+    transform: translateX(100%);
+}
