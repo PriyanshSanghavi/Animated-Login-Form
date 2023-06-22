@@ -1,6 +1,6 @@
 # Animated Login Form
 
-This is an animated login form that was created creatively using HTML, CSS, and JS.
+This is an animated login form that was created creatively using HTML, CSS, and JSac.
 
 ## Login V1 (Output)
 
